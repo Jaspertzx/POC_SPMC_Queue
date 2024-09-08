@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94E44E34-BEE8-34E6-AE06-7BAC4ED3BC1D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/jaspe/OneDrive/Desktop/spmc -BC:/Users/jaspe/OneDrive/Desktop/spmc/build --check-stamp-file C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\jaspe\OneDrive\Desktop\spmc\build\CMakeFiles\3.29.5\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/jaspe/OneDrive/Desktop/spmc -BC:/Users/jaspe/OneDrive/Desktop/spmc/build --check-stamp-file C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\jaspe\OneDrive\Desktop\spmc\build\CMakeFiles\3.29.5\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/jaspe/OneDrive/Desktop/spmc -BC:/Users/jaspe/OneDrive/Desktop/spmc/build --check-stamp-file C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\jaspe\OneDrive\Desktop\spmc\build\CMakeFiles\3.29.5\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/jaspe/OneDrive/Desktop/spmc -BC:/Users/jaspe/OneDrive/Desktop/spmc/build --check-stamp-file C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeDependentOption.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Users\jaspe\OneDrive\Desktop\spmc\build\CMakeFiles\3.29.5\CMakeCCompiler.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jaspe\OneDrive\Desktop\spmc\build\ZERO_CHECK.vcxproj">
+      <Project>{10144E08-0207-3639-857E-D346BD169020}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\googlemock\gmock.vcxproj">
+      <Project>{2B7D7D86-B2D9-399F-9C8D-E2C5D27885AE}</Project>
+      <Name>gmock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\googlemock\gmock_main.vcxproj">
+      <Project>{91149588-AB2A-3B7B-A2B1-6E64BAD725C6}</Project>
+      <Name>gmock_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\googletest\gtest.vcxproj">
+      <Project>{7DD87641-A26F-3C82-B4AB-D9AC91F146E3}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build\googletest\gtest_main.vcxproj">
+      <Project>{61E3F1C5-8444-373D-BC22-AB51E5CCE7C9}</Project>
+      <Name>gtest_main</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

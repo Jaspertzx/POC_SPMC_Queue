@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

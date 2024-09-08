@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/74d51442b47fb425c3da950f824ea1ba/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/34d80b98caa8abf55872b4a0554cdda1/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/69db05272017df01a05c51714d15ac78/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

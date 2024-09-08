@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeCInformation.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeDependentOption.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/GNUInstallDirs.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/CMakeFiles/3.29.5/CMakeCCompiler.cmake
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/CMakeLists.txt

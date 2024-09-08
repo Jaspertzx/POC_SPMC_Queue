@@ -1,0 +1,39 @@
+Start testing: Sep 09 00:29 Malay Peninsula Standard Time
+----------------------------------------------------------
+1/1 Testing: spmc_queue_test
+1/1 Test: spmc_queue_test
+Command: "C:/Users/jaspe/OneDrive/Desktop/spmc/build/tests/Debug/test_spmc.exe"
+Directory: C:/Users/jaspe/OneDrive/Desktop/spmc/build/tests
+"spmc_queue_test" start time: Sep 09 00:29 Malay Peninsula Standard Time
+Output:
+----------------------------------------------------------
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from SPMCQueueTest
+[ RUN      ] SPMCQueueTest.SingleProducerSingleConsumer
+[       OK ] SPMCQueueTest.SingleProducerSingleConsumer (0 ms)
+[ RUN      ] SPMCQueueTest.EnqueueWhenFull
+[       OK ] SPMCQueueTest.EnqueueWhenFull (0 ms)
+[ RUN      ] SPMCQueueTest.DequeueWhenEmpty
+[       OK ] SPMCQueueTest.DequeueWhenEmpty (0 ms)
+[ RUN      ] SPMCQueueTest.MultipleConsumers
+[       OK ] SPMCQueueTest.MultipleConsumers (0 ms)
+[ RUN      ] SPMCQueueTest.MultiProducerMultiConsumer
+[       OK ] SPMCQueueTest.MultiProducerMultiConsumer (0 ms)
+[ RUN      ] SPMCQueueTest.SingleProducerMultipleConsumers
+210
+[       OK ] SPMCQueueTest.SingleProducerMultipleConsumers (0 ms)
+[----------] 6 tests from SPMCQueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 6 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"spmc_queue_test" end time: Sep 09 00:29 Malay Peninsula Standard Time
+"spmc_queue_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 09 00:29 Malay Peninsula Standard Time

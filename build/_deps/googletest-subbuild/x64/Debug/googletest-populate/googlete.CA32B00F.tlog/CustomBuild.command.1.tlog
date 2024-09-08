@@ -1,0 +1,150 @@
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-MKDIR.RULE
+setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -P C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -Dcan_fetch=YES -P C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-PATCH.RULE
+setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\69DB05272017DF01A05C51714D15AC78\GOOGLETEST-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\jaspe\OneDrive\Desktop\spmc\build\_deps\googletest-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\34D80B98CAA8ABF55872B4A0554CDDA1\GOOGLETEST-POPULATE-COMPLETE.RULE
+setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E make_directory C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -E touch C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\74D51442B47FB425C3DA950F824EA1BA\GOOGLETEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\JASPE\ONEDRIVE\DESKTOP\SPMC\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\jaspe\AppData\Local\Programs\Python\Python311\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild -BC:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild --check-stamp-file C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

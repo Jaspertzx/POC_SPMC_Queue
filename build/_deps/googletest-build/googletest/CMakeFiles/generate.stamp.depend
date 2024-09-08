@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CMakePackageConfigHelpers.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPython.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindPython/Support.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake
+C:/Users/jaspe/AppData/Local/Programs/Python/Python311/Lib/site-packages/cmake/data/share/cmake-3.29/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googletest/CMakeLists.txt
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googletest/cmake/Config.cmake.in
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googletest/cmake/gtest.pc.in
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googletest/cmake/gtest_main.pc.in
+C:/Users/jaspe/OneDrive/Desktop/spmc/build/_deps/googletest-src/googletest/cmake/internal_utils.cmake
